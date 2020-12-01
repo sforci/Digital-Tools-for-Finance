@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath}
+%\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{booktabs} 
+\usepackage{multirow}
+
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{}
+
+\geometry{left=30mm,right=30mm,top=35mm,bottom=30mm,headheight=15pt}
+
+\graphicspath{{./img/}}
+
+
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=0.5\textwidth]{UZH}
+		\end{figure}
+		\Large{\textbf{example}\\}
+
+		
+		\vfill 
+		
+		\large{Filip Sprusansky \\ 
+				second name \\}
+		
+		\vfill
+			
+		\large{November 15, 2020}
+		
+		\vfill
+		\vfill
+	
+		\large{Digital Tools for Finance \\prof 1 \& prof 2 \\ }
+	
+		\vfill
+		\begin{abstract}
+		\noindent
+			\blindtext
+			
+			\vspace{3mm}
+			
+			\textbf{Keywords:} .
+		\end{abstract}
+		
+		
+	\end{titlepage}
+	
+	%\clearpage\thispagestyle{empty}\addtocounter{page}{-1}\mbox{}\clearpage
+	
+	\clearpage
+	\tableofcontents
+	
+	\clearpage
+	\listoffigures
+	
+	\clearpage
+	\listoftables
+	\clearpage	
+	
+	\section{Section 1}
+    \cite{Busse}
+    	
+	
+	\clearpage\thispagestyle{empty}\addtocounter{page}{-1}\mbox{}
+	\bibliographystyle{plain}
+	\bibliography{references.bib}
+	
+	
+\end{document}

@@ -1,0 +1,2 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Section 1}{4}{section.1}%
