@@ -83,8 +83,52 @@
 	\clearpage	
 	
 	\section{Section 1}
-    \cite{Busse}
-    	
+	\subsection{Subsection 1}
+    \blindtext
+    \subsection{Subsection 2}
+    \blindtext
+    \begin{itemize}
+    	\item Item 1
+    	\item Item 2
+    	\begin{itemize}
+    		\item Subitem 1
+    		\item Subitem 2
+    	\end{itemize}
+    	\item Item 3
+    \end{itemize}
+    \section{Section 2}
+    \subsection{Subsection 1}
+    \blindtext
+    \begin{enumerate}
+    	\item Item 1
+    	\item Item 2
+    	\begin{enumerate}
+    		\item Subitem 1
+    		\item Subitem 2
+    	\end{enumerate}
+    	\item Item 3
+    \end{enumerate}
+    Aligned system of equations with numbers and labels:
+	\begin{align}
+		y &= 2 + x \label{eq1} \\
+		x &= y + 7 + z \label{eq2}
+	\end{align}
+	Reference equation 1 (\ref{eq1}) and equation 2 (\ref{eq2}). Next is system of equations with one number:
+	\begin{equation}
+	\begin{aligned}
+		y &= 2 + x  \\
+		x &= y + 7 + z
+	\end{aligned}
+	\label{eq3}
+	\end{equation}
+	
+	Reference system (\ref{eq3}). System with some numbers:
+	\begin{align}
+		y &= 2 + x  \nonumber \\
+		x &= y + 7 + z \\
+		y &= 2 + x  \\
+		x &= y + 7 + z \nonumber
+	\end{align}
 	
 	\clearpage\thispagestyle{empty}\addtocounter{page}{-1}\mbox{}
 	\bibliographystyle{plain}
