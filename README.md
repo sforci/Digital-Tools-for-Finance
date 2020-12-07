@@ -11,7 +11,7 @@ This is the repository for the final project for the Digital Tools for Finance c
 * [Jupyter Notebook]
 
 
-<project URL#<header name>
+
 
 
 
