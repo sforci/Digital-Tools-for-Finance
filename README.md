@@ -11,7 +11,7 @@ This is the repository for the final project for the Digital Tools for Finance c
 | having a history of commits and merges  | take a look [here](https://github.com/sforci/Digital-Tools-for-Finance/network) 
 | a database with an API and possibility to update data  | TODO
 | featuring a paper written in LaTeX ...  | [here](https://github.com/sforci/Digital-Tools-for-Finance/tree/LATEXreport/text/paper) and [here](https://github.com/sforci/Digital-Tools-for-Finance/tree/LATEXreport/src/latex%20document) (NEED TO MERGE)
-| a beamer presentation where figures adhere to the visualization standards | [here](https://github.com/sforci/Digital-Tools-for-Finance/tree/LATEXreport/text/presentation) TODO
+| a beamer presentation where figures adhere to the visualization standards | [here](https://github.com/sforci/Digital-Tools-for-Finance/tree/master/text/presentation)
 |  (optional) with one interactive app or jupyter Notebook       | [here](https://github.com/sforci/Digital-Tools-for-Finance/tree/master/src)
 
 
