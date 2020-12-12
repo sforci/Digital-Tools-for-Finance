@@ -17,6 +17,9 @@
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 
+\usepackage[style= authoryear, backend=bibtex, natbib]{biblatex}
+\addbibresource{references.bib}
+
 
 
 
@@ -42,13 +45,15 @@
 			\centering
 			\includegraphics[width=0.5\textwidth]{UZH}
 		\end{figure}
-		\Large{\textbf{example}\\}
+		\Large{\textbf{Digital Tools For Finance}\\}
 
 		
 		\vfill 
 		
 		\large{Filip Sprusansky \\ 
-				second name \\}
+				Jordan Brett Seligmann \\
+				Silvia Forcina Barrero\\
+				Villem Armulik}
 		
 		\vfill
 			
@@ -174,8 +179,7 @@
 
 	\clearpage\thispagestyle{empty}\addtocounter{page}{-1}\mbox{}
 	
-	\bibliographystyle{plain}
-	\bibliography{references}
+	\printbibliography[heading=bibintoc]
 	
 	
 \end{document}
